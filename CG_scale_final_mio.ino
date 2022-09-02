@@ -1,18 +1,10 @@
 /*
-   CG scale for F3F & F3B models
-   Olav Kallhovd 2016-2017
-
+   CG scale
    CG Scale main components:
-   1 pc load sensor front YZC-133 2kg
-   1 pc load sensor rear YZC-133 3kg
+   1 pc load sensor front YZC-133 
+   1 pc load sensor rear YZC-133 
    2 pc HX711 ADC, one for each load sensor (128bit resolution)
-   1 pc Arduino Pro for the scale
-   1 pc Arduino Pro for the Serial display
-   1 pc 16*2 HD44780 LCD for the Serial display
-   3D printed parts
-
-   Max model weight with sensors above: 4 to 4,5kg depending on CG location
-
+   1 pc Arduino 
 */
 
 #include <HX711_ADC.h> //https://github.com/olkal/HX711_ADC can be installed from the library manager
